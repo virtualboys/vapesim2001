@@ -1,0 +1,345 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3144
+Cmd: getPlatforms
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=4 insize=591 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=4 insize=591 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=15 insize=591 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=9 insize=591 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=4 insize=591 outsize=29 ok=0
+Cmd: preprocess
+  insize=1222 outsize=386 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1135 outsize=989 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1135 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1185 outsize=386 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=4 insize=636 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=4 insize=636 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=15 insize=636 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=9 insize=636 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
+  api=4 insize=636 outsize=29 ok=0
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=638 outsize=881 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=638 outsize=881 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=638 outsize=1441 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=638 outsize=1453 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=640 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=640 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=640 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=640 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=640 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=640 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=640 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=640 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=458 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=458 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1549 ok=1
+Cmd: preprocess
+  insize=1242 outsize=443 ok=1
+Cmd: preprocess
+  insize=1256 outsize=443 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1112 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1112 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1261 outsize=442 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1118 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1118 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1319 outsize=500 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1118 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1118 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1305 outsize=500 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1104 outsize=1111 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1104 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1280 outsize=475 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=460 outsize=1541 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=460 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=458 outsize=1537 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=458 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1541 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1557 ok=1
+Cmd: preprocess
+  insize=1284 outsize=479 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1557 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1557 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=458 outsize=1545 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=458 outsize=1557 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=458 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=458 outsize=1545 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=458 outsize=1557 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=917 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=460 outsize=1549 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=460 outsize=1557 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=482 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=482 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=482 outsize=1653 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=482 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=482 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=482 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=482 outsize=1657 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=482 outsize=1669 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=483 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=483 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=483 outsize=1665 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=483 outsize=1677 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=484 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=484 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=484 outsize=1669 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=484 outsize=1677 ok=1

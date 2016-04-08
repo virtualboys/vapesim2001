@@ -1,0 +1,36 @@
+﻿
+#pragma kernel CSMain
+
+RWTexture3D<float4> ResultVelocity;
+
+Texture3D<float> Pressure;
+Texture3D<float4> Velocity;
+
+SamplerState _PointClamp;
+
+float w, h, d;
+
+const uint3 right = uint3(1,0,0);
+const uint3 left = uint3(-1,0,0);
+const uint3 top = uint3(0,1,0);
+const uint3 bottom = uint3(0,-1,0);
+const uint3 back = uint3(0,0,1);
+const uint3 front = uint3(0,0,-1);
+
+[numthreads(8,8,8)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    float3 pos = float3(id.x/w, id.y/h, id.z/d);
+
+	float pRt = Pressure.SampleLevel(_PointClamp, pos + right / w, 0);
+	float pLt = Pressure.SampleLevel(_PointClamp, pos + left / w, 0);
+	float pTp = Pressure.SampleLevel(_PointClamp, pos + top / h, 0);
+	float pBm = Pressure.SampleLevel(_PointClamp, pos + bottom / h, 0);
+	float pBk = Pressure.SampleLevel(_PointClamp, pos + back / d, 0);
+	float pFt = Pressure.SampleLevel(_PointClamp, pos + front / d, 0);
+
+	float3 gradP = 0.5 * float3(pRt - pLt, pTp - pBm, pBk - pFt);  
+
+	float3 vel = Velocity.SampleLevel(_PointClamp, pos, 0).xyz;  
+	ResultVelocity[id] = float4(vel - gradP, 0); 
+}

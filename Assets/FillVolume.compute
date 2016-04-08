@@ -1,0 +1,20 @@
+﻿
+#pragma kernel CSMain
+
+RWTexture3D<float4> Particles;
+RWTexture3D<float4> Velocity;
+
+float w, h, d;
+
+[numthreads(8,8,8)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	if(id.x > 3.0*w/8.0 && id.x < 5.0*w/8.0 && id.y > 3*h/8.0 && id.y < 5.0*h/8.0 && id.z > 3*d/8.0 && id.z < 5.0*d / 8.0) {
+		Particles[id] = float4(1.0, 1.0, 1.0, 1.0);
+		Velocity[id] = float4(.01,-.1,0.0, 0.0);
+	}
+	else {
+		Particles[id] = float4(0.0, 0.0, 0.0, 0.0);
+		Velocity[id] = float4(0, 0, 0, 0.0);
+	}
+}

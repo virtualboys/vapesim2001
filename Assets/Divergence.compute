@@ -1,0 +1,32 @@
+﻿
+#pragma kernel CSMain
+
+RWTexture3D<float> Divergence;
+
+Texture3D<float4> Velocity;
+
+SamplerState _PointClamp;
+
+float w, h, d;
+
+const uint3 right = uint3(1,0,0);
+const uint3 left = uint3(-1,0,0);
+const uint3 top = uint3(0,1,0);
+const uint3 bottom = uint3(0,-1,0);
+const uint3 back = uint3(0,0,1);
+const uint3 front = uint3(0,0,-1);
+
+[numthreads(8,8,8)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    float3 pos = float3(id.x/w, id.y/h, id.z/d);
+
+	float3 vRt = Velocity.SampleLevel(_PointClamp, pos + right / w, 0).xyz;
+	float3 vLt = Velocity.SampleLevel(_PointClamp, pos + left / w, 0).xyz;
+	float3 vTp = Velocity.SampleLevel(_PointClamp, pos + top / h, 0).xyz;
+	float3 vBm = Velocity.SampleLevel(_PointClamp, pos + bottom / h, 0).xyz;
+	float3 vBk = Velocity.SampleLevel(_PointClamp, pos + back / d, 0).xyz;
+	float3 vFt = Velocity.SampleLevel(_PointClamp, pos + front / d, 0).xyz;
+
+	Divergence[id] = 0.5 * ((vRt.x - vLt.x) + (vTp.y - vBm.y) + (vBk.z - vFt.z));  
+}
