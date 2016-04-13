@@ -53,8 +53,10 @@
      <None Include="Assets\ClearFloatTexture.compute" />
      <None Include="Assets\FillVolume.compute" />
      <None Include="Assets\ProjectPressure.compute" />
+     <None Include="Assets\InitBoundaries.compute" />
      <None Include="Assets\VertexColor.shader" />
      <None Include="Assets\Jacobi.compute" />
+     <None Include="Assets\Gaussian.compute" />
      <None Include="Assets\Advect.compute" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

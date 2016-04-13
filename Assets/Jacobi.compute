@@ -5,31 +5,42 @@ RWTexture3D<float> ResultPressure;
 
 Texture3D<float> Pressure;
 Texture3D<float> Divergence;
+Texture3D<float4> BoundaryNormals;
 
 SamplerState _PointClamp;
 
 float w, h, d;
 
-const uint3 right = uint3(1,0,0);
-const uint3 left = uint3(-1,0,0);
-const uint3 top = uint3(0,1,0);
-const uint3 bottom = uint3(0,-1,0);
-const uint3 back = uint3(0,0,1);
-const uint3 front = uint3(0,0,-1);
+
+
+float GetPressure(float3 pos, float3 offset)
+{
+	float3 normal = BoundaryNormals.SampleLevel(_PointClamp, pos + offset, 0).xyz;
+	if(normal.x != 0 || normal.y != 0 || normal.z != 0) 
+		return Pressure.SampleLevel(_PointClamp, pos, 0);
+	else
+		return Pressure.SampleLevel(_PointClamp, pos + offset, 0);
+}
 
 [numthreads(8,8,8)]
 void CSMain (uint3 id : SV_DispatchThreadID)
 {
-    float3 pos = float3(id.x/w, id.y/h, id.z/d);
+	float3 right = float3(1,0,0);
+	float3 top = float3(0,1,0);
+	float3 back = float3(0,0,1);
+
+    float3 pos = float3((id.x+.5f) / w, (id.y+.5f) / h, (id.z+.5f) / d);
 
 	float div = Divergence.SampleLevel(_PointClamp, pos, 0);
 
-	float pRt = Pressure.SampleLevel(_PointClamp, pos + right / w, 0);
-	float pLt = Pressure.SampleLevel(_PointClamp, pos + left / w, 0);
-	float pTp = Pressure.SampleLevel(_PointClamp, pos + top / h, 0);
-	float pBm = Pressure.SampleLevel(_PointClamp, pos + bottom / h, 0);
-	float pBk = Pressure.SampleLevel(_PointClamp, pos + back / d, 0);
-	float pFt = Pressure.SampleLevel(_PointClamp, pos + front / d, 0);
+	float pRt = GetPressure(pos, right / w);
+	float pLt = GetPressure(pos, -right / w);
+	float pTp = GetPressure(pos, top / h);
+	float pBm = GetPressure(pos, -top / h);
+	float pBk = GetPressure(pos, back / d);
+	float pFt = GetPressure(pos, -back / d);
 
 	ResultPressure[id] = (pRt + pLt + pTp + pBm + pBk + pFt - div) / 6.0; 
 }
+
+

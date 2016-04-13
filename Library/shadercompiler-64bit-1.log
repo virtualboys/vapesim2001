@@ -1,324 +1,50 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-3144
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-332
 Cmd: getPlatforms
 Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=591 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=591 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=15 insize=591 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=9 insize=591 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=591 outsize=29 ok=0
-Cmd: preprocess
-  insize=1222 outsize=386 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1135 outsize=989 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1135 outsize=518 kw= pd= ok=1
-Cmd: preprocess
-  insize=1185 outsize=386 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=636 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=636 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=15 insize=636 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=9 insize=636 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  error: 2 plat 4 at FillVolume.compute(15): incorrect number of arguments to numeric-type constructor
-  api=4 insize=636 outsize=29 ok=0
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=638 outsize=881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=638 outsize=881 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=638 outsize=1441 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=638 outsize=1453 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=640 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=640 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=640 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=640 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=640 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=640 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=640 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=640 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=458 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=458 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1549 ok=1
-Cmd: preprocess
-  insize=1242 outsize=443 ok=1
-Cmd: preprocess
-  insize=1256 outsize=443 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1112 outsize=1193 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1112 outsize=518 kw= pd= ok=1
-Cmd: preprocess
-  insize=1261 outsize=442 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1118 outsize=1193 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1118 outsize=518 kw= pd= ok=1
-Cmd: preprocess
-  insize=1319 outsize=500 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1118 outsize=1193 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1118 outsize=518 kw= pd= ok=1
-Cmd: preprocess
-  insize=1305 outsize=500 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1104 outsize=1111 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1104 outsize=518 kw= pd= ok=1
-Cmd: preprocess
-  insize=1280 outsize=475 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=460 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=460 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=460 outsize=1541 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=460 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=458 outsize=1537 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=458 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1541 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1557 ok=1
-Cmd: preprocess
-  insize=1284 outsize=479 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1557 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
+  api=4 insize=654 outsize=953 ok=1
 Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=459 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=459 outsize=1549 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=459 outsize=1557 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
+  api=4 insize=654 outsize=953 ok=1
 Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=458 outsize=1545 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=458 outsize=1557 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
+  api=15 insize=654 outsize=1685 ok=1
 Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=458 outsize=917 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=458 outsize=1545 ok=1
-Cmd: compileCompute
-  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=458 outsize=1557 ok=1
+  api=9 insize=654 outsize=1701 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=460 outsize=917 ok=1
+  api=4 insize=484 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=460 outsize=917 ok=1
+  api=4 insize=484 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=460 outsize=1549 ok=1
+  api=15 insize=484 outsize=1669 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=460 outsize=1557 ok=1
+  api=9 insize=484 outsize=1677 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=482 outsize=985 ok=1
+  api=4 insize=485 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=482 outsize=985 ok=1
+  api=4 insize=485 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=482 outsize=1653 ok=1
+  api=15 insize=485 outsize=1669 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=482 outsize=1661 ok=1
+  api=9 insize=485 outsize=1681 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=482 outsize=985 ok=1
+  api=4 insize=486 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=482 outsize=985 ok=1
+  api=4 insize=486 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=482 outsize=1657 ok=1
+  api=15 insize=486 outsize=1677 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=482 outsize=1669 ok=1
+  api=9 insize=486 outsize=1689 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
   api=4 insize=483 outsize=985 ok=1
@@ -333,13 +59,1239 @@ Cmd: compileCompute
   api=9 insize=483 outsize=1677 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=484 outsize=985 ok=1
+  api=4 insize=481 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=484 outsize=985 ok=1
+  api=4 insize=481 outsize=985 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=15 insize=484 outsize=1669 ok=1
+  api=15 insize=481 outsize=1657 ok=1
 Cmd: compileCompute
   error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
-  api=9 insize=484 outsize=1677 ok=1
+  api=9 insize=481 outsize=1669 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  api=4 insize=656 outsize=805 ok=1
+Cmd: compileCompute
+  api=4 insize=656 outsize=805 ok=1
+Cmd: compileCompute
+  api=15 insize=656 outsize=1437 ok=1
+Cmd: compileCompute
+  api=9 insize=656 outsize=1453 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  api=4 insize=654 outsize=805 ok=1
+Cmd: compileCompute
+  api=4 insize=654 outsize=805 ok=1
+Cmd: compileCompute
+  api=15 insize=654 outsize=1433 ok=1
+Cmd: compileCompute
+  api=9 insize=654 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=656 outsize=805 ok=1
+Cmd: compileCompute
+  api=4 insize=656 outsize=805 ok=1
+Cmd: compileCompute
+  api=15 insize=656 outsize=1437 ok=1
+Cmd: compileCompute
+  api=9 insize=656 outsize=1453 ok=1
+Cmd: compileCompute
+  api=4 insize=676 outsize=865 ok=1
+Cmd: compileCompute
+  api=4 insize=676 outsize=865 ok=1
+Cmd: compileCompute
+  api=15 insize=676 outsize=1489 ok=1
+Cmd: compileCompute
+  api=9 insize=676 outsize=1509 ok=1
+Cmd: compileCompute
+  api=4 insize=716 outsize=877 ok=1
+Cmd: compileCompute
+  api=4 insize=716 outsize=877 ok=1
+Cmd: compileCompute
+  api=15 insize=716 outsize=1517 ok=1
+Cmd: compileCompute
+  api=9 insize=716 outsize=1533 ok=1
+Cmd: compileCompute
+  api=4 insize=674 outsize=845 ok=1
+Cmd: compileCompute
+  api=4 insize=674 outsize=845 ok=1
+Cmd: compileCompute
+  api=15 insize=674 outsize=1481 ok=1
+Cmd: compileCompute
+  api=9 insize=674 outsize=1493 ok=1
+Cmd: compileCompute
+  api=4 insize=672 outsize=993 ok=1
+Cmd: compileCompute
+  api=4 insize=672 outsize=993 ok=1
+Cmd: compileCompute
+  api=15 insize=672 outsize=1729 ok=1
+Cmd: compileCompute
+  api=9 insize=672 outsize=1745 ok=1
+Cmd: compileCompute
+  api=4 insize=678 outsize=993 ok=1
+Cmd: compileCompute
+  api=4 insize=678 outsize=993 ok=1
+Cmd: compileCompute
+  api=15 insize=678 outsize=1729 ok=1
+Cmd: compileCompute
+  api=9 insize=678 outsize=1745 ok=1
+Cmd: compileCompute
+  api=4 insize=1710 outsize=2929 ok=1
+Cmd: compileCompute
+  api=4 insize=1710 outsize=2929 ok=1
+Cmd: compileCompute
+  api=15 insize=1710 outsize=4509 ok=1
+Cmd: compileCompute
+  api=9 insize=1710 outsize=4601 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1044 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1044 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1044 outsize=4697 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1044 outsize=4793 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Jacobi.compute(35): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(37): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(39): unary negate of unsigned value is still unsigned
+  api=4 insize=1145 outsize=3253 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Jacobi.compute(35): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(37): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(39): unary negate of unsigned value is still unsigned
+  api=4 insize=1145 outsize=3253 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Jacobi.compute(35): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(37): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(39): unary negate of unsigned value is still unsigned
+  api=15 insize=1145 outsize=5249 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Jacobi.compute(35): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(37): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Jacobi.compute(39): unary negate of unsigned value is still unsigned
+  api=9 insize=1145 outsize=5353 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=480 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=480 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=480 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=481 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=481 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=481 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=481 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=476 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=476 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=476 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=476 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=475 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=475 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=475 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=475 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=459 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=459 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=459 outsize=1661 ok=1
+Cmd: compileCompute
+  api=4 insize=1710 outsize=289 ok=1
+Cmd: compileCompute
+  api=4 insize=1710 outsize=289 ok=1
+Cmd: compileCompute
+  api=15 insize=1710 outsize=497 ok=1
+Cmd: compileCompute
+  api=9 insize=1710 outsize=457 ok=1
+Cmd: compileCompute
+  api=4 insize=1710 outsize=2929 ok=1
+Cmd: compileCompute
+  api=4 insize=1710 outsize=2929 ok=1
+Cmd: compileCompute
+  api=15 insize=1710 outsize=4509 ok=1
+Cmd: compileCompute
+  api=9 insize=1710 outsize=4601 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=596 outsize=1137 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=596 outsize=1137 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=596 outsize=2565 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=596 outsize=2561 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=596 outsize=1137 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=596 outsize=1137 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=596 outsize=2565 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=596 outsize=2561 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=460 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=460 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=461 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=461 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=461 outsize=1653 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=461 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=460 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=460 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=460 outsize=1661 ok=1
+Cmd: compileCompute
+  api=4 insize=407 outsize=433 ok=1
+Cmd: compileCompute
+  api=4 insize=407 outsize=433 ok=1
+Cmd: compileCompute
+  api=15 insize=407 outsize=717 ok=1
+Cmd: compileCompute
+  api=9 insize=407 outsize=693 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at Gaussian.compute(36): typed UAV loads are only allowed for single-component 32-bit element types
+  error: 2 plat 4 at Gaussian.compute(37): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=808 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Gaussian.compute(36): typed UAV loads are only allowed for single-component 32-bit element types
+  error: 2 plat 4 at Gaussian.compute(37): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=808 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Gaussian.compute(36): typed UAV loads are only allowed for single-component 32-bit element types
+  error: 2 plat 4 at Gaussian.compute(37): typed UAV loads are only allowed for single-component 32-bit element types
+  api=15 insize=808 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Gaussian.compute(36): typed UAV loads are only allowed for single-component 32-bit element types
+  error: 2 plat 4 at Gaussian.compute(37): typed UAV loads are only allowed for single-component 32-bit element types
+  api=9 insize=808 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Gaussian.compute(36): typed UAV loads are only allowed for single-component 32-bit element types
+  error: 2 plat 4 at Gaussian.compute(37): typed UAV loads are only allowed for single-component 32-bit element types
+  api=4 insize=808 outsize=29 ok=0
+Cmd: compileCompute
+  api=4 insize=903 outsize=1569 ok=1
+Cmd: compileCompute
+  api=4 insize=903 outsize=1569 ok=1
+Cmd: compileCompute
+  api=15 insize=903 outsize=2437 ok=1
+Cmd: compileCompute
+  api=9 insize=903 outsize=2473 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=448 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=448 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=448 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=448 outsize=1661 ok=1
+Cmd: compileCompute
+  api=4 insize=922 outsize=1569 ok=1
+Cmd: compileCompute
+  api=4 insize=922 outsize=1569 ok=1
+Cmd: compileCompute
+  api=15 insize=922 outsize=2437 ok=1
+Cmd: compileCompute
+  api=9 insize=922 outsize=2473 ok=1
+Cmd: compileCompute
+  api=4 insize=922 outsize=1569 ok=1
+Cmd: compileCompute
+  api=4 insize=922 outsize=1569 ok=1
+Cmd: compileCompute
+  api=15 insize=922 outsize=2437 ok=1
+Cmd: compileCompute
+  api=9 insize=922 outsize=2473 ok=1
+Cmd: compileCompute
+  api=4 insize=902 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=902 outsize=1449 ok=1
+Cmd: compileCompute
+  api=15 insize=902 outsize=2285 ok=1
+Cmd: compileCompute
+  api=9 insize=902 outsize=2317 ok=1
+Cmd: compileCompute
+  api=4 insize=917 outsize=1373 ok=1
+Cmd: compileCompute
+  api=4 insize=917 outsize=1373 ok=1
+Cmd: compileCompute
+  api=15 insize=917 outsize=2209 ok=1
+Cmd: compileCompute
+  api=9 insize=917 outsize=2237 ok=1
+Cmd: compileCompute
+  api=4 insize=930 outsize=1393 ok=1
+Cmd: compileCompute
+  api=4 insize=930 outsize=1393 ok=1
+Cmd: compileCompute
+  api=15 insize=930 outsize=2221 ok=1
+Cmd: compileCompute
+  api=9 insize=930 outsize=2257 ok=1
+Cmd: compileCompute
+  api=4 insize=902 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=902 outsize=1449 ok=1
+Cmd: compileCompute
+  api=15 insize=902 outsize=2285 ok=1
+Cmd: compileCompute
+  api=9 insize=902 outsize=2317 ok=1
+Cmd: compileCompute
+  api=4 insize=897 outsize=1401 ok=1
+Cmd: compileCompute
+  api=4 insize=897 outsize=1401 ok=1
+Cmd: compileCompute
+  api=15 insize=897 outsize=2233 ok=1
+Cmd: compileCompute
+  api=9 insize=897 outsize=2269 ok=1
+Cmd: compileCompute
+  api=4 insize=902 outsize=1449 ok=1
+Cmd: compileCompute
+  api=4 insize=902 outsize=1449 ok=1
+Cmd: compileCompute
+  api=15 insize=902 outsize=2285 ok=1
+Cmd: compileCompute
+  api=9 insize=902 outsize=2317 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=882 outsize=1389 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=882 outsize=1389 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=882 outsize=2209 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=882 outsize=2245 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=895 outsize=1389 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=895 outsize=1389 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=895 outsize=2209 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=895 outsize=2245 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=915 outsize=1489 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=915 outsize=1489 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=915 outsize=2345 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=915 outsize=2381 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=940 outsize=1505 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=940 outsize=1505 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=940 outsize=2457 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=940 outsize=2497 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=942 outsize=1545 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=942 outsize=1545 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=942 outsize=2509 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=942 outsize=2557 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=943 outsize=1545 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=943 outsize=1545 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=943 outsize=2513 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=943 outsize=2561 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=940 outsize=1505 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=940 outsize=1505 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=940 outsize=2457 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=940 outsize=2497 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=448 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=448 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=448 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=448 outsize=1661 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=965 outsize=1485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=965 outsize=1485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=965 outsize=2489 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=965 outsize=2529 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=962 outsize=1409 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=962 outsize=1409 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=962 outsize=2417 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=962 outsize=2457 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=967 outsize=1217 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=967 outsize=1217 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=967 outsize=1993 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=967 outsize=2021 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=965 outsize=1485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=965 outsize=1485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=965 outsize=2489 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=965 outsize=2529 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=967 outsize=185 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=967 outsize=185 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=967 outsize=297 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=967 outsize=249 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=957 outsize=1073 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=957 outsize=1073 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=957 outsize=2073 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=957 outsize=2105 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=932 outsize=1093 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=932 outsize=1093 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=932 outsize=2033 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=932 outsize=2069 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=957 outsize=1073 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=957 outsize=1073 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=957 outsize=2073 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=957 outsize=2105 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=945 outsize=1033 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=945 outsize=1033 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=945 outsize=2029 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=945 outsize=2061 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=961 outsize=845 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=961 outsize=845 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=961 outsize=1525 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=961 outsize=1541 ok=1
+Cmd: compileCompute
+  api=4 insize=969 outsize=845 ok=1
+Cmd: compileCompute
+  api=4 insize=969 outsize=845 ok=1
+Cmd: compileCompute
+  api=15 insize=969 outsize=1525 ok=1
+Cmd: compileCompute
+  api=9 insize=969 outsize=1541 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=965 outsize=1485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=4 insize=965 outsize=1485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=15 insize=965 outsize=2489 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Gaussian.compute(35): implicit truncation of vector type
+  api=9 insize=965 outsize=2529 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=448 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=448 outsize=985 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=448 outsize=1649 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at FillVolume.compute(12): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=448 outsize=1661 ok=1
+Cmd: preprocess
+  insize=1288 outsize=478 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1108 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1108 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1291 outsize=479 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1111 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1111 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1284 outsize=479 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1066 outsize=285 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1066 outsize=285 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1066 outsize=485 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1066 outsize=445 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1042 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1042 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1042 outsize=4697 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1042 outsize=4793 ok=1
+Cmd: preprocess
+  insize=1293 outsize=479 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1113 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1113 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1294 outsize=479 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1114 outsize=1193 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1114 outsize=518 kw= pd= ok=1
+Cmd: preprocess
+  insize=1293 outsize=479 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1048 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1048 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1048 outsize=4701 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1048 outsize=4797 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1057 outsize=2957 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1057 outsize=2957 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1057 outsize=4737 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1057 outsize=4833 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1053 outsize=2957 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1053 outsize=2957 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1053 outsize=4733 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1053 outsize=4829 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1053 outsize=2957 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1053 outsize=2957 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1053 outsize=4733 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1053 outsize=4829 ok=1
+Cmd: preprocess
+  insize=1294 outsize=479 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1048 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1048 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1048 outsize=4701 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1048 outsize=4797 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1042 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1042 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1042 outsize=4697 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1042 outsize=4793 ok=1
+Cmd: preprocess
+  insize=1293 outsize=479 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1045 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=4 insize=1045 outsize=2929 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=15 insize=1045 outsize=4697 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at Divergence.compute(32): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(34): unary negate of unsigned value is still unsigned
+  error: 1 plat 4 at Divergence.compute(36): unary negate of unsigned value is still unsigned
+  api=9 insize=1045 outsize=4793 ok=1
+Cmd: compileCompute
+  api=4 insize=1048 outsize=2761 ok=1
+Cmd: compileCompute
+  api=4 insize=1048 outsize=2761 ok=1
+Cmd: compileCompute
+  api=15 insize=1048 outsize=4405 ok=1
+Cmd: compileCompute
+  api=9 insize=1048 outsize=4497 ok=1
+Cmd: compileCompute
+  api=4 insize=1030 outsize=2761 ok=1
+Cmd: compileCompute
+  api=4 insize=1030 outsize=2761 ok=1
+Cmd: compileCompute
+  api=15 insize=1030 outsize=4405 ok=1
+Cmd: compileCompute
+  api=9 insize=1030 outsize=4497 ok=1
+Cmd: compileCompute
+  api=4 insize=1055 outsize=993 ok=1
+Cmd: compileCompute
+  api=4 insize=1055 outsize=993 ok=1
+Cmd: compileCompute
+  api=15 insize=1055 outsize=1745 ok=1
+Cmd: compileCompute
+  api=9 insize=1055 outsize=1769 ok=1
+Cmd: preprocess
+  insize=1284 outsize=479 ok=1
+Cmd: compileCompute
+  api=4 insize=1055 outsize=993 ok=1
+Cmd: compileCompute
+  api=4 insize=1055 outsize=993 ok=1
+Cmd: compileCompute
+  api=15 insize=1055 outsize=1745 ok=1
+Cmd: compileCompute
+  api=9 insize=1055 outsize=1769 ok=1
+Cmd: compileCompute
+  api=4 insize=1061 outsize=1333 ok=1
+Cmd: compileCompute
+  api=4 insize=1061 outsize=1333 ok=1
+Cmd: compileCompute
+  api=15 insize=1061 outsize=2261 ok=1
+Cmd: compileCompute
+  api=9 insize=1061 outsize=2301 ok=1
+Cmd: preprocess
+  insize=1295 outsize=479 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (41): syntax error: unexpected token '*'\nCompiling Vertex program
+  api=4 type=0 insize=1115 outsize=0 kw= pd= ok=0
+Cmd: preprocess
+  insize=1284 outsize=479 ok=1
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1075 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1075 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1075 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1075 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1075 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1076 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1076 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1076 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1076 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1076 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1135 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1135 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1135 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1135 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1135 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1137 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1137 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1137 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1137 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1137 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1139 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1139 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1139 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1139 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1139 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1147 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1147 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1147 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1147 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1147 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1145 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1145 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=15 insize=1145 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=9 insize=1145 outsize=29 ok=0
+Cmd: compileCompute
+  error: 2 plat 4 at Divergence.compute(39): syntax error: unexpected token '*'
+  api=4 insize=1145 outsize=29 ok=0
+Cmd: compileCompute
+  api=4 insize=1142 outsize=845 ok=1
+Cmd: compileCompute
+  api=4 insize=1142 outsize=845 ok=1
+Cmd: compileCompute
+  api=15 insize=1142 outsize=1289 ok=1
+Cmd: compileCompute
+  api=9 insize=1142 outsize=1297 ok=1
+Cmd: compileCompute
+  api=4 insize=1144 outsize=845 ok=1
+Cmd: compileCompute
+  api=4 insize=1144 outsize=845 ok=1
+Cmd: compileCompute
+  api=15 insize=1144 outsize=1305 ok=1
+Cmd: compileCompute
+  api=9 insize=1144 outsize=1313 ok=1
+Cmd: compileCompute
+  api=4 insize=1134 outsize=893 ok=1
+Cmd: compileCompute
+  api=4 insize=1134 outsize=893 ok=1
+Cmd: compileCompute
+  api=15 insize=1134 outsize=1345 ok=1
+Cmd: compileCompute
+  api=9 insize=1134 outsize=1357 ok=1
+Cmd: compileCompute
+  api=4 insize=1150 outsize=869 ok=1
+Cmd: compileCompute
+  api=4 insize=1150 outsize=869 ok=1
+Cmd: compileCompute
+  api=15 insize=1150 outsize=1317 ok=1
+Cmd: compileCompute
+  api=9 insize=1150 outsize=1329 ok=1
+Cmd: compileCompute
+  api=4 insize=1133 outsize=893 ok=1
+Cmd: compileCompute
+  api=4 insize=1133 outsize=893 ok=1
+Cmd: compileCompute
+  api=15 insize=1133 outsize=1345 ok=1
+Cmd: compileCompute
+  api=9 insize=1133 outsize=1357 ok=1
+Cmd: compileCompute
+  api=4 insize=1140 outsize=869 ok=1
+Cmd: compileCompute
+  api=4 insize=1140 outsize=869 ok=1
+Cmd: compileCompute
+  api=15 insize=1140 outsize=1281 ok=1
+Cmd: compileCompute
+  api=9 insize=1140 outsize=1293 ok=1
+Cmd: compileCompute
+  api=4 insize=1147 outsize=2205 ok=1
+Cmd: compileCompute
+  api=4 insize=1147 outsize=2205 ok=1
+Cmd: compileCompute
+  api=15 insize=1147 outsize=3525 ok=1
+Cmd: compileCompute
+  api=9 insize=1147 outsize=3601 ok=1
+Cmd: compileCompute
+  api=4 insize=1705 outsize=2761 ok=1
+Cmd: compileCompute
+  api=4 insize=1705 outsize=2761 ok=1
+Cmd: compileCompute
+  api=15 insize=1705 outsize=4293 ok=1
+Cmd: compileCompute
+  api=9 insize=1705 outsize=4393 ok=1
+Cmd: compileCompute
+  api=4 insize=1084 outsize=2577 ok=1
+Cmd: compileCompute
+  api=4 insize=1084 outsize=2577 ok=1
+Cmd: compileCompute
+  api=15 insize=1084 outsize=4205 ok=1
+Cmd: compileCompute
+  api=9 insize=1084 outsize=4309 ok=1
+Cmd: compileCompute
+  api=4 insize=1142 outsize=2901 ok=1
+Cmd: compileCompute
+  api=4 insize=1142 outsize=2901 ok=1
+Cmd: compileCompute
+  api=15 insize=1142 outsize=4753 ok=1
+Cmd: compileCompute
+  api=9 insize=1142 outsize=4865 ok=1
+Cmd: compileCompute
+  api=4 insize=1037 outsize=2577 ok=1
+Cmd: compileCompute
+  api=4 insize=1037 outsize=2577 ok=1
+Cmd: compileCompute
+  api=15 insize=1037 outsize=4205 ok=1
+Cmd: compileCompute
+  api=9 insize=1037 outsize=4309 ok=1
+Cmd: compileCompute
+  api=4 insize=1140 outsize=2901 ok=1
+Cmd: compileCompute
+  api=4 insize=1140 outsize=2901 ok=1
+Cmd: compileCompute
+  api=15 insize=1140 outsize=4753 ok=1
+Cmd: compileCompute
+  api=9 insize=1140 outsize=4865 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=766 outsize=1589 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=766 outsize=1589 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=766 outsize=3653 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=766 outsize=3681 ok=1
+Cmd: compileCompute
+  api=4 insize=1703 outsize=2761 ok=1
+Cmd: compileCompute
+  api=4 insize=1703 outsize=2761 ok=1
+Cmd: compileCompute
+  api=15 insize=1703 outsize=4293 ok=1
+Cmd: compileCompute
+  api=9 insize=1703 outsize=4393 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=727 outsize=1433 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=727 outsize=1433 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=15 insize=727 outsize=3373 ok=1
+Cmd: compileCompute
+  error: 1 plat 4 at InitBoundaries.compute(13): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(17): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(21): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at InitBoundaries.compute(23): signed/unsigned mismatch, unsigned assumed
+  api=9 insize=727 outsize=3397 ok=1

@@ -10,6 +10,7 @@ Texture3D<float4> Particles;
 SamplerState samplerVelocity;
 SamplerState samplerParticles;
 SamplerState _PointClamp;
+SamplerState _LinearClamp;
 
 
 float w, h, d;
@@ -18,11 +19,11 @@ float timeStep;
 [numthreads(8,8,8)]
 void CSMain (uint3 id : SV_DispatchThreadID)
 {
-    float3 pos = float3(id.x/w, id.y/h, id.z/d);
+    float3 pos = float3((id.x+.5f) / w, (id.y+.5f) / h, (id.z+.5f) / d);
  
-    float3 v = Velocity.SampleLevel(_PointClamp, pos, 0).xyz;
+	float3 v = Velocity.SampleLevel(_PointClamp, pos, 0).xyz;
 	pos -= timeStep * v;
 
-    ResultVelocity[id.xyz] = Velocity.SampleLevel(samplerVelocity, pos, 0);
-	ResultParticles[id.xyz] = Particles.SampleLevel(samplerParticles, pos, 0);
+	ResultVelocity[id.xyz] = Velocity.SampleLevel(_LinearClamp, pos, 0);
+	ResultParticles[id.xyz] = Particles.SampleLevel(_LinearClamp, pos, 0);
 }

@@ -14,14 +14,24 @@ public class ComputeManager : MonoBehaviour {
 
     RenderTexture divergence;
 
+    RenderTexture boundaryNormals;
+
     public int iterations;
     public int w, h, d;
 
+    public float impulseSize;
+    public float impulseMag;
+    public Vector4 impulseLoc;
+    public Vector4 impulseDir;
+    public Vector4 splatColor;
+
     public ComputeShader fillVolume;
+    public ComputeShader initBoundaries;
 
     public ComputeShader clearFloatTex;
 
     public ComputeShader advect;
+    public ComputeShader gaussian;
     public ComputeShader computeDivergence;
     public ComputeShader jacobi;
     public ComputeShader projectPressure;
@@ -34,6 +44,7 @@ public class ComputeManager : MonoBehaviour {
         particles = CreateFloat4Texture();
         resultVelocity = CreateFloat4Texture();
         resultParticles = CreateFloat4Texture();
+        boundaryNormals = CreateFloat4Texture();
 
         pressure = CreateFloatTexture();
         resultPressure = CreateFloatTexture();
@@ -43,11 +54,20 @@ public class ComputeManager : MonoBehaviour {
         fillVolume.SetTexture(0, "Particles", particles);
         SetShaderBounds(fillVolume);
         fillVolume.Dispatch(0, w / 8, h / 8, d / 8);
+
+        initBoundaries.SetTexture(0, "BoundaryNormals", boundaryNormals);
+        SetShaderBounds(initBoundaries);
+        initBoundaries.Dispatch(0, w / 8, h / 8, d / 8);
+
+        ApplyExternalForces();
+        ApplyExternalForces();
+        ApplyExternalForces();
 	}
 
     void Update ()
     {
         Advect();
+        //ApplyExternalForces();
         ComputePressure();
         ProjectPressure();
 
@@ -57,7 +77,7 @@ public class ComputeManager : MonoBehaviour {
     void Advect()
     {
         SetShaderBounds(advect);
-        advect.SetFloat("timeStep", 0.1f);
+        advect.SetFloat("timeStep", 0.01f);
         advect.SetTexture(0, "Velocity", velocity);
         advect.SetTexture(0, "Particles", particles);
         advect.SetTexture(0, "ResultVelocity", resultVelocity);
@@ -68,16 +88,37 @@ public class ComputeManager : MonoBehaviour {
         SwapTextures(ref particles, ref resultParticles);
     }
 
+    void ApplyExternalForces()
+    {
+        SetShaderBounds(gaussian);
+        gaussian.SetFloat("splatSize", impulseSize);
+        gaussian.SetVector("splatPos", impulseLoc);
+        gaussian.SetVector("splatColor", splatColor);
+        gaussian.SetVector("impulse", impulseMag * impulseDir.normalized);
+
+        gaussian.SetTexture(0, "Velocity", velocity);
+        gaussian.SetTexture(0, "Particles", particles);
+        gaussian.SetTexture(0, "ResultVelocity", resultVelocity);
+        gaussian.SetTexture(0, "ResultParticles", resultParticles);
+        gaussian.SetTexture(0, "BoundaryNormals", boundaryNormals);
+        gaussian.Dispatch(0, w / 8, h / 8, d / 8);
+
+        SwapTextures(ref velocity, ref resultVelocity);
+        SwapTextures(ref particles, ref resultParticles);
+    }
+
     void ComputePressure()
     {
         SetShaderBounds(computeDivergence);
         computeDivergence.SetTexture(0, "Divergence", divergence);
         computeDivergence.SetTexture(0, "Velocity", velocity);
+        computeDivergence.SetTexture(0, "BoundaryNormals", boundaryNormals);
         computeDivergence.Dispatch(0, w / 8, h / 8, d / 8);
 
         ClearFloatTex(pressure);
         SetShaderBounds(jacobi);
         jacobi.SetTexture(0, "Divergence", divergence);
+        jacobi.SetTexture(0, "BoundaryNormals", boundaryNormals);
 
         RenderTexture pI = pressure;
         RenderTexture pO = resultPressure;
@@ -99,6 +140,7 @@ public class ComputeManager : MonoBehaviour {
         projectPressure.SetTexture(0, "Velocity", velocity);
         projectPressure.SetTexture(0, "ResultVelocity", resultVelocity);
         projectPressure.SetTexture(0, "Pressure", pressure);
+        projectPressure.SetTexture(0, "BoundaryNormals", boundaryNormals);
         projectPressure.Dispatch(0, w / 8, h / 8, d / 8);
 
         SwapTextures(ref velocity, ref resultVelocity);
