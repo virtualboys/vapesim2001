@@ -71,7 +71,7 @@ public class ComputeManager : MonoBehaviour {
         ComputePressure();
         ProjectPressure();
 
-        pointCloud.SetFluidVolume(particles);
+        //pointCloud.SetFluidVolume(particles);
     }
 
     void Advect()
@@ -144,6 +144,11 @@ public class ComputeManager : MonoBehaviour {
         projectPressure.Dispatch(0, w / 8, h / 8, d / 8);
 
         SwapTextures(ref velocity, ref resultVelocity);
+    }
+
+    public RenderTexture GetFluidDensity()
+    {
+        return particles;
     }
 
     RenderTexture CreateFloat4Texture()

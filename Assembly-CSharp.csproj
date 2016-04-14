@@ -48,9 +48,12 @@
      <Compile Include="Assets\ComputeManager.cs" />
      <Compile Include="Assets\DrawPointCloud.cs" />
      <Compile Include="Assets\EnablePointSize.cs" />
+     <Compile Include="Assets\FluidRenderer.cs" />
      <Compile Include="Assets\PointCloud.cs" />
+     <Compile Include="Assets\RenderingController.cs" />
      <None Include="Assets\Divergence.compute" />
      <None Include="Assets\ClearFloatTexture.compute" />
+     <None Include="Assets\GenerateRays.shader" />
      <None Include="Assets\FillVolume.compute" />
      <None Include="Assets\ProjectPressure.compute" />
      <None Include="Assets\InitBoundaries.compute" />
