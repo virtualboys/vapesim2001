@@ -32,8 +32,8 @@
 	
         float4 frag (v2f i) : SV_Target
         {
-			float depth =i.pos.z / i.pos.w;
-            return float4(depth,depth,depth,1);
+			float depth = i.viewPos.z;
+            return float4(0,0,0,-depth);
         }
 	
 		ENDCG
@@ -43,8 +43,8 @@
 	Pass {
 		Cull Back
 		ZWrite Off
-		//BlendOp Sub
-		//Blend One One
+		BlendOp RevSub
+		Blend One One
 		LOD 200
 		
 		CGPROGRAM
@@ -71,9 +71,8 @@
 
         float4 frag (v2f i) : SV_Target
         {
-			float depth =i.pos.z / i.pos.w;
-            //return float4(depth,depth,depth,1);
-			return tex3Dlod(_FluidDensity, i.texCoord);
+			float depth = i.viewPos.z;
+			return float4(-i.texCoord.xyz,-depth);
         }
 
 		ENDCG

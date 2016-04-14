@@ -8,21 +8,21 @@ float w, h, d;
 [numthreads(8,8,8)]
 void CSMain (uint3 id : SV_DispatchThreadID)
 {
-	//if(id.x == 0) {
-	//	BoundaryNormals[id] = float4(1,0,0,0);
-	//} 
-	if (id.x >= w-1) {
+	if(id.x == 0) {
 		BoundaryNormals[id] = float4(1,0,0,0);
 	} 
-	//else if(id.y == 0) {
-	//	BoundaryNormals[id] = float4(0,1,0,0);
-	//} 
+	else if (id.x >= w-1) {
+		BoundaryNormals[id] = float4(1,0,0,0);
+	} 
+	else if(id.y == 0) {
+		BoundaryNormals[id] = float4(0,1,0,0);
+	} 
 	else if (id.y >= h-1) {
 		BoundaryNormals[id] = float4(0,1,0,0);
 	} 
-	//else if(id.z == 0) {
-	//	BoundaryNormals[id] = float4(0,0,1,0);
-	//} 
+	else if(id.z == 0) {
+		BoundaryNormals[id] = float4(0,0,1,0);
+	} 
 	else if (id.z >= d-1) {
 		BoundaryNormals[id] = float4(0,0,1,0);
 	} 

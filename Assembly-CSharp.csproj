@@ -53,6 +53,7 @@
      <Compile Include="Assets\RenderingController.cs" />
      <None Include="Assets\Divergence.compute" />
      <None Include="Assets\ClearFloatTexture.compute" />
+     <None Include="Assets\RayTrace.shader" />
      <None Include="Assets\GenerateRays.shader" />
      <None Include="Assets\FillVolume.compute" />
      <None Include="Assets\ProjectPressure.compute" />

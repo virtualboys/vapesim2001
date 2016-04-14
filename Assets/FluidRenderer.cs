@@ -7,6 +7,7 @@ public class FluidRenderer : MonoBehaviour {
     public float scale;
 
     public ComputeManager computeManager;
+    public Material rayTraceMat;
 
     private Mesh mesh;
     private Material mat;
@@ -22,8 +23,11 @@ public class FluidRenderer : MonoBehaviour {
         mat = mr.material;
         mesh = GetComponent<MeshFilter>().mesh;
         SetTexCoords();
-
-        rayTex = new RenderTexture(Screen.width, Screen.height, 24);
+        Vector4 gridDim = new Vector4(computeManager.w, computeManager.h, computeManager.d, 1);
+        Vector4 recGridDim = new Vector4(1 / gridDim.x, 1 / gridDim.y, 1 / gridDim.z, 1);
+        rayTraceMat.SetVector("_GridDim", gridDim);
+        rayTraceMat.SetVector("_RecGridDim", recGridDim);
+        rayTex = new RenderTexture(Screen.width, Screen.height, 24, RenderTextureFormat.ARGBFloat);
 	}
 	
 	// Update is called once per frame
@@ -57,10 +61,13 @@ public class FluidRenderer : MonoBehaviour {
         //RenderTexture.active = null;
         //Camera.main.targetTexture = null;
         //Graphics.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), rayTex);
-
+        Vector4 eyeOnGrid;
+        eyeOnGrid=(Camera.main.worldToCameraMatrix * transform.localToWorldMatrix).inverse * new Vector4(0, 0, 0, 1);
+        rayTraceMat.SetVector("_EyeOnGrid",eyeOnGrid);
+        rayTraceMat.SetTexture("_FluidDensity", computeManager.GetFluidDensity());
         Camera.main.targetTexture = null;
         RenderTexture.active = null;
-        Graphics.Blit(rayTex, null as RenderTexture);
+        Graphics.Blit(rayTex, null as RenderTexture, rayTraceMat);
     }
 
     void SetTexCoords()

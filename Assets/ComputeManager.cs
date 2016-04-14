@@ -62,6 +62,9 @@ public class ComputeManager : MonoBehaviour {
         ApplyExternalForces();
         ApplyExternalForces();
         ApplyExternalForces();
+        ApplyExternalForces();
+        ApplyExternalForces();
+        ApplyExternalForces();
 	}
 
     void Update ()
