@@ -49,6 +49,7 @@
      <Compile Include="Assets\DrawPointCloud.cs" />
      <Compile Include="Assets\EnablePointSize.cs" />
      <Compile Include="Assets\FluidRenderer.cs" />
+     <Compile Include="Assets\Orbit.cs" />
      <Compile Include="Assets\PointCloud.cs" />
      <Compile Include="Assets\RenderingController.cs" />
      <None Include="Assets\Divergence.compute" />

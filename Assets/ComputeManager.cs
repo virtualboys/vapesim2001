@@ -59,18 +59,18 @@ public class ComputeManager : MonoBehaviour {
         SetShaderBounds(initBoundaries);
         initBoundaries.Dispatch(0, w / 8, h / 8, d / 8);
 
-        ApplyExternalForces();
-        ApplyExternalForces();
-        ApplyExternalForces();
-        ApplyExternalForces();
-        ApplyExternalForces();
-        ApplyExternalForces();
+        //ApplyExternalForces();
+        //ApplyExternalForces();
+        //ApplyExternalForces();
+        //ApplyExternalForces();
+        //ApplyExternalForces();
+        //ApplyExternalForces();
 	}
 
     void Update ()
     {
         Advect();
-        //ApplyExternalForces();
+        ApplyExternalForces();
         ComputePressure();
         ProjectPressure();
 

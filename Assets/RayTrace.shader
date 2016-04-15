@@ -8,6 +8,7 @@
 	}
 
 	SubShader {
+		BlendOp Add
 		Blend SrcAlpha OneMinusSrcAlpha
 
 	Pass {
@@ -34,13 +35,13 @@
 		void DoSample(float weight,float3 pos, inout float4 color){
 			float4 sample;
 			float t;
-			float OPACITY_MODULATOR=.1f;
+			float OPACITY_MODULATOR=.3f;
 
 			sample = weight * tex3Dlod(_FluidDensity, float4(pos,0));
 			sample.a = (sample.r) * OPACITY_MODULATOR;
 
 			t = sample.a * (1.0-color.a);
-			color.rgb += t * sample.r;
+			color.rgb += t * sample.r*float3(.8,.93,.85);
 			color.a += t;
 		}
 
@@ -55,6 +56,9 @@
         float4 frag (v2f i) : SV_Target
         {
 			float4 rayData = tex2D(_MainTex, i.texCoord.xy);
+			if(rayData.a == 0)
+				return float4(0,0,0,0);
+
 			float3 stepVec = normalize((rayData.xyz-_EyeOnGrid.xyz)*_GridDim.xyz)*_RecGridDim.xyz*.5f;
 			//return float4(rayData.a,rayData.a,rayData.a,rayData.a);
 			float stepLength=length(stepVec);

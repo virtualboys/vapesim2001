@@ -37,6 +37,7 @@ public class FluidRenderer : MonoBehaviour {
     public void PreRender()
     {
         //RenderTexture.active = rayTex;
+        //Camera.main.backgroundColor = new Color(0, 0, 0, 0);
         Camera.main.targetTexture = rayTex;
         mat.SetTexture("_FluidDensity", computeManager.GetFluidDensity());
     }
@@ -66,7 +67,9 @@ public class FluidRenderer : MonoBehaviour {
         rayTraceMat.SetVector("_EyeOnGrid",eyeOnGrid);
         rayTraceMat.SetTexture("_FluidDensity", computeManager.GetFluidDensity());
         Camera.main.targetTexture = null;
+        //Camera.main.backgroundColor = Color.cyan;
         RenderTexture.active = null;
+        GL.Clear(true, true, Color.cyan);
         Graphics.Blit(rayTex, null as RenderTexture, rayTraceMat);
     }
 
