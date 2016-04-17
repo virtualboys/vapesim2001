@@ -1,6 +1,5 @@
 ﻿Shader "Custom/GenerateRays" {
 	Properties {
-		_FluidDensity ("FluidDensity", 3D) = "" {}
 	}
 
 	SubShader {
@@ -51,8 +50,6 @@
 		#pragma vertex vert
         #pragma fragment frag
 		#include "UnityCG.cginc"
-
-		uniform sampler3D _FluidDensity;
 
 		struct v2f {
             float4 pos : SV_POSITION;

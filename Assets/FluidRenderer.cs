@@ -39,7 +39,6 @@ public class FluidRenderer : MonoBehaviour {
         //RenderTexture.active = rayTex;
         //Camera.main.backgroundColor = new Color(0, 0, 0, 0);
         Camera.main.targetTexture = rayTex;
-        mat.SetTexture("_FluidDensity", computeManager.GetFluidDensity());
     }
 
     public void Render()
